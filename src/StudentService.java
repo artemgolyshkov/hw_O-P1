@@ -9,10 +9,7 @@ public class StudentService {
         }
     }
 
-    /**
-     * @param students Hogwarts
-     * @param facultyName String
-     */
+
     public void chooseBestStudent(Hogwarts[] students, String facultyName) {
         int max = students[0].sumProperties();
         String winner = students[0].getName();
